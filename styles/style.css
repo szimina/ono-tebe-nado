@@ -1,5 +1,4 @@
 .header {
-  /*вся шапка*/
   height: 293px;
   padding: 92px 49px 92px 51px;
   display: grid;
@@ -9,51 +8,42 @@
 }
 
 .header__menu {
-  /*контейнер навигации*/
   grid-area: menu;
 }
 
 .header__links-list {
-  /*список ссылок*/
   display: flex;
   column-gap: 32.5px;
   list-style: circle;
 }
 
 .header__links-list-item {
-  /*пункт списка ссылок*/
   width: auto;
   font-size: 18px;
 }
 
 .header__links-list-item_no-bullit {
-  /*класс, чтобы сделать ссылку без кружочка перед ней*/
   list-style: none;
 }
 
 .header__link {
-  /*ссылка*/
   text-underline-offset: 5px;
 }
 
 .header__link_active {
-  /*активная ссылка*/
   text-decoration: none;
 }
 
 .header__logo {
-  /*контейнер логотипа*/
   grid-area: logo;
   width: 130.9px;
 }
 
 .header__logo-image {
-  /*картинка с логотипом*/
   max-width: 100%;
 }
 
 .address {
-  /*контейнер с адресом*/
   grid-area: address;
   white-space: nowrap;
   font-size: 18px;
@@ -64,7 +54,6 @@
 }
 
 .cover {
-  /* вся секция*/
   height: 757px;
   background-image: url(../images/cover.jpg);
   background-position: bottom -22px right 0;
@@ -74,13 +63,11 @@
 }
 
 .overlay {
-  /*полупрозрачный блок поверх секции*/
   background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
 }
 
 .cover__title {
-  /*заголовок*/
   text-transform: uppercase;
   font-size: 100px;
   font-weight: 700;
@@ -90,7 +77,6 @@
 }
 
 .aligned-text {
-  /*класс для выравнивания строк текста по левому краю и превращения их в блочный элемент*/
   padding-left: 50px;
   padding-top: 165px;
   padding-right: 50px;
@@ -99,7 +85,6 @@
 }
 
 .aligned-text_center {
-  /*класс для выравнивания строк текста по центру и превращения их в блочный элемент*/
   align-self: center;
   padding-left: 110px;
   padding-right: 110px;
@@ -108,7 +93,6 @@
 }
 
 .aligned-text_right {
-  /*класс для выравнивания строк текста по правому краю и превращения их в блочный элемент*/
   align-self: end;
   padding-right: 20px;
   padding-top: 0;
@@ -117,17 +101,14 @@
 }
 
 .letter-spacing-extended {
-  /*класс для управления межбуквенным расстоянием в местах, где есть эти акценты*/
   letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-  /*класс для обнуления общего межбуквенного расстояния для последней буквы*/
   letter-spacing: 30px;
 }
 
 .cover__description {
-  /*контейнер для подзаголовка и кнопки*/
   margin: 135px 50px 50px 422px;
   height: 52px;
   display: flex;
@@ -136,7 +117,6 @@
 }
 
 .cover__description-text {
-  /*текст подзаголовка*/
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
@@ -144,12 +124,10 @@
 }
 
 .cover__description-text-spacing-extended {
-  /*класс для увеличенного расстояния между последними двумя словами*/
   word-spacing: 21px;
 }
 
 .bet-button {
-  /*кнопка «Сделать ставку*/
   background: none;
   color: #fff;
   border: 1px solid #fff;
@@ -162,14 +140,12 @@
 }
 
 .lots {
-  /*вся секция карточек*/
   margin: 180px 50px;
   display: flex;
   flex-direction: column;
 }
 
 .lots__heading {
-  /*заголовок секции*/
   font-size: 40px;
   text-transform: uppercase;
   margin-left: 40px;
@@ -177,7 +153,6 @@
   display: flex;
 }
 .lots__card-list {
-  /*список карточек*/
   list-style: none;
   display: flex;
   gap: 25px;
@@ -186,12 +161,10 @@
 }
 
 .card-link {
-  /*ссылка, обрамляющая карточку*/
   text-decoration: none;
 }
 
 .card {
-  /*карточка*/
   color: #fff;
   width: 430px;
   height: 450px;
@@ -200,35 +173,30 @@
   justify-content: space-between;
 }
 .card_type_film {
-  /*класс фона фильм*/
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card_type_book {
-  /*класс фона книга*/
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card_type_picture {
-  /*класс фона картинка*/
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card__content {
-  /*текстовое содержание карточки*/
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .card__title {
-  /*заголовок карточки*/
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
@@ -242,7 +210,6 @@
 }
 
 .card__text {
-  /*текст карточки*/
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
@@ -252,7 +219,6 @@
 }
 
 .lots__look-more-link {
-  /*ссылка посмотреть больше*/
   font-size: 20px;
   font-weight: 400;
   margin: 30px 1108px 2px 40px;
@@ -262,7 +228,6 @@
 }
 
 .about {
-  /*вся секция layout*/
   display: grid;
   grid-template-columns: 430px 1fr;
   grid-template-rows: 247px 1fr;
@@ -276,12 +241,10 @@
 }
 
 .about__column {
-  /*класс для колонок*/
   justify-self: center;
 }
 
 .about__logo {
-  /*контейнер с логотипом*/
   min-width: 240px;
   min-height: 240px;
   grid-area: logo;
@@ -292,14 +255,12 @@
 }
 
 .about__logo-image {
-  /*изображение логотипа*/
   min-width: 148px;
   max-height: 114px;
   place-self: center center;
 }
 
 .about__title {
-  /*заголовок секции*/
   grid-area: header;
   font-size: 40px;
   font-weight: 700;
@@ -308,7 +269,6 @@
 }
 
 .about__text {
-  /*блок для текстов секции*/
   grid-area: text;
   font-size: 20px;
   font-weight: 400;
@@ -318,14 +278,12 @@
 }
 
 .footer {
-  /*подвал*/
   display: flex;
   justify-content: space-between;
   padding: 180px 50px 90px;
 }
 
 .footer__menu-list {
-  /*список пунктов меню*/
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -333,18 +291,15 @@
 }
 
 .footer__menu-link {
-  /*ссылка меню*/
   font-size: 18px;
   text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
-  /* активная ссылка меню (без подчеркивания)*/
   text-decoration: none;
 }
 
 .footer__social-list {
-  /*список ссылок на социальные сети*/
   list-style: none;
   max-width: 240px;
   max-height: 48px;
@@ -353,17 +308,14 @@
 }
 
 .footer__social-list-item {
-  /*пункт списка ссылок на социальные сети*/
   border-radius: 30px;
 }
 
 .footer__social-list-item:hover {
-  /*пункт списка ссылок на социальные сети*/
   border-radius: 30px;
   background-color: rgb(173, 92, 240);
 }
 
 .footer__social-icon {
-  /*иконка социальной сети*/
   height: 100%;
 }
