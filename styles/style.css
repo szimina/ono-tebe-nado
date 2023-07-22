@@ -245,8 +245,8 @@
 }
 
 .about__logo {
-  min-width: 240px;
-  min-height: 240px;
+  width: 240px;
+  height: 240px;
   grid-area: logo;
   background-color: black;
   border-radius: 180px;
