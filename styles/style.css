@@ -229,58 +229,53 @@
 
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
-  grid-template-rows: 247px 1fr;
+  margin: 181px 50px 182px 50px;
+  grid-template-columns: 430px, 1fr;
   grid-template-areas:
-    "logo header"
-    ". text";
-  margin: 181px 50px 0px;
-  margin-left: 50px;
-  width: 1340px;
+  "logo text";
   column-gap: 25px;
 }
 
 .about__column {
-  justify-self: center;
+  grid-area: "text";
+  margin-top: 100px;
 }
 
 .about__logo {
-  width: 240px;
-  height: 240px;
   grid-area: logo;
   background-color: black;
-  border-radius: 180px;
-  display: flex;
-  place-content: center center;
+	border-radius: 50%;
+  background-size: contain;
+  height: 240px;
+  margin-left: 95px;
+  margin-right: 95px;
 }
 
 .about__logo-image {
-  min-width: 148px;
-  max-height: 114px;
-  place-self: center center;
+  height: 240px;
+  padding: 63px 46px 63px 46px;
 }
 
 .about__title {
-  grid-area: header;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  align-self: center;
+  margin-bottom: 103px;
 }
 
 .about__text {
-  grid-area: text;
   font-size: 20px;
   font-weight: 400;
+  line-height: 23px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 28px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 90px;
+  padding: 0 50px 90px;
 }
 
 .footer__menu-list {
@@ -288,7 +283,6 @@
   flex-direction: column;
   list-style: none;
   align-items: center;
-  padding-left: 36px;
 }
 
 .footer__menu-link {
