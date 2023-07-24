@@ -18,10 +18,10 @@
 }
 
 .header__links-list-item {
+  font-family: 'Raleway';
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-
 }
 
 .header__links-list-item_no-bullit {
@@ -46,6 +46,7 @@
 }
 
 .address {
+  font-family: 'Raleway';
   grid-area: address;
   white-space: nowrap;
   font-style: normal;
@@ -54,8 +55,6 @@
   font-size: 18px;
   line-height: 24.3px;
   font-weight: 400;
-
-
 }
 
 .cover {
@@ -73,6 +72,7 @@
 }
 
 .cover__title {
+  font-family: 'Raleway';
   text-transform: uppercase;
   font-size: 100px;
   font-weight: 700;
@@ -122,6 +122,8 @@
 }
 
 .cover__description-text {
+  font-family: 'Raleway';
+  font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
@@ -130,15 +132,17 @@
 
   .cover__description-text_word-spacing-extended {
     word-spacing: 22px;
-
   }
 
 
 .bet-button {
+  font-family: 'Raleway';
   background: none;
   color: #fff;
   border: 1px solid #fff;
   font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
   text-transform: uppercase;
   width: 257px;
   height: 52px;
@@ -203,9 +207,10 @@
   justify-content: space-between;
 }
 .card__title {
+  font-family: 'Raleway';
   font-size: 22px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 26.4px;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -216,9 +221,10 @@
 }
 
 .card__text {
+  font-family: 'Raleway';
   font-size: 20px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 24px;
   padding-bottom: 50px;
   padding-left: 40px;
   padding-right: 40px;
@@ -235,10 +241,10 @@
 
 .about {
   display: grid;
-  margin: 180px 50px 184px 50px;
+  margin: 180px 50px 183px 50px;
   grid-template-columns: 430px, 1fr;
-  grid-template-areas:
-  "logo text";
+  grid-template-areas: 
+    "logo text";
   column-gap: 25px;
 }
 
@@ -263,14 +269,18 @@
 }
 
 .about__title {
+  font-family: 'Raleway';
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 47px;
   margin-bottom: 101px;
 }
 
 .about__text {
+  font-family: 'Raleway';
   font-size: 20px;
+  font-style: normal;
   font-weight: 400;
   line-height: 23px;
   display: flex;
