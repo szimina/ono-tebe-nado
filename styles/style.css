@@ -109,7 +109,7 @@
 }
 
 .cover__description {
-  margin: 135px 50px 50px 422px;
+  margin: 135px 50px 50px 417px;
   height: 52px;
   display: flex;
   justify-content: space-between;
@@ -120,7 +120,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 17px;
+  word-spacing: 18.5px;
 }
 
 .cover__description-text-spacing-extended {
@@ -229,7 +229,7 @@
 
 .about {
   display: grid;
-  margin: 181px 50px 182px 50px;
+  margin: 180px 50px 185px 50px;
   grid-template-columns: 430px, 1fr;
   grid-template-areas:
   "logo text";
@@ -260,7 +260,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 103px;
+  margin-bottom: 100px;
 }
 
 .about__text {
@@ -288,7 +288,7 @@
 .footer__menu-link {
   font-size: 18px;
   text-underline-offset: 4px;
-  margin-left: 33px;
+  margin-left: 35px;
 }
 
 .footer__menu-link_active {
