@@ -226,7 +226,7 @@
 
 .about {
   display: grid;
-  margin: 180px 50px 185px 50px;
+  margin: 180px 50px 182px 50px;
   grid-template-columns: 430px, 1fr;
   grid-template-areas:
   "logo text";
@@ -257,7 +257,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin-bottom: 101px;
 }
 
 .about__text {
@@ -266,7 +266,7 @@
   line-height: 23px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 30px;
 }
 
 .footer {
