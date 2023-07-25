@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 49px 92px 50px;
+  padding: 92px 49px 92px 51px;
   display: grid;
   grid-template-columns: 605px 1fr 240px;
   grid-template-areas: "menu logo address";
