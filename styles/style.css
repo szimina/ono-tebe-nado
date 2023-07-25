@@ -206,10 +206,10 @@
   font-family: 'Raleway';
   font-size: 22px;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 1.2;
   text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
   text-transform: uppercase;
   padding-top: 50px;
   padding-left: 40px;
