@@ -232,12 +232,11 @@
   margin: 30px 1108px 2px 40px;
   text-decoration: underline;
   text-underline-offset: 5px;
-  text-decoration-line: 1px;
 }
 
 .about {
   display: grid;
-  margin: 180px 50px 183px 50px;
+  margin: 179px 50px 183px 50px;
   grid-template-columns: 430px, 1fr;
   grid-template-areas: 
     "logo text";
