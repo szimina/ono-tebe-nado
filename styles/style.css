@@ -134,16 +134,15 @@
   background: none;
   color: #fff;
   border: 1px solid #fff;
-  font-size: 21px;
-  font-weight: 500;
-  line-height: 26px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
   text-transform: uppercase;
   width: 257px;
   height: 52px;
   cursor: pointer;
   margin-bottom: 3px;
 } 
-
 
 
 .lots {
