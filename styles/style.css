@@ -236,7 +236,7 @@
 
 .about {
   display: grid;
-  margin: 183px 50px 180px 50px;
+  margin: 187px 50px 180px 50px;
   grid-template-columns: 430px, 1fr;
   grid-template-areas: 
     "logo text";
