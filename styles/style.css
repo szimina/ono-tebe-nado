@@ -1,11 +1,10 @@
 .header {
-  height: 293px;
-  padding: 92px 50px 92px 50px;
+  padding: 92px 49px 92px 51px;
   display: grid;
-  grid-template-columns: 607px 1fr 239px;
+  grid-template-columns: 605px 1fr 240px;
   grid-template-areas: "menu logo address";
   align-items: center;
-}
+  }
 
 .header__menu {
   grid-area: menu;
@@ -20,7 +19,6 @@
 .header__links-list-item {
   font-family: 'Raleway';
   font-size: 18px;
-  line-height: 21px;
   font-weight: 400;
 }
 
@@ -43,6 +41,7 @@
 
 .header__logo-image {
   max-width: 100%;
+
 }
 
 .address {
@@ -50,10 +49,10 @@
   grid-area: address;
   white-space: nowrap;
   font-style: normal;
-  line-height: 1.35;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
   font-weight: 400;
 }
 
