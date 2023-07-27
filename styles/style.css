@@ -64,11 +64,7 @@
   text-underline-offset: 4px;
 }
 
-.telephone:hover {
-  color: rgb(173, 92, 240);
-}
-
-.email:hover {
+.contact_link:hover {
   color: rgb(173, 92, 240);
 }
 
@@ -300,7 +296,7 @@
   height: 240px;
   margin-right: 95px;
   margin-left: 95px;
-	border-radius: 50%;
+  border-radius: 50%;
   background-color: black;
   background-size: contain;
 }
